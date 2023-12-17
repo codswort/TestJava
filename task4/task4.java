@@ -1,10 +1,7 @@
 package task4;
 import java.util.*;
-import java.io.BufferedReader;
+import java.io.*;
 import static java.lang.Math.*;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
 
 public class task4 {
     static private ArrayList<Integer> arrayList = new ArrayList<>();
