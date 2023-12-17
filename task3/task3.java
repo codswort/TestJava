@@ -1,5 +1,3 @@
-package task3;
-
 import java.io.*;
 import java.util.*;
 import com.google.gson.Gson;
@@ -83,7 +81,7 @@ public class task3 {
         return file;
     }
     static private String getFileDirectory(String filePath) {
-        int lastIndexOfSlash = filePath.lastIndexOf('/');
+        int lastIndexOfSlash = Math.max(filePath.lastIndexOf('/'), filePath.lastIndexOf('\\'));
         return (lastIndexOfSlash != -1) ? filePath.substring(0, lastIndexOfSlash) : null;
     }
 }

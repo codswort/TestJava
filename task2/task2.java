@@ -1,8 +1,5 @@
-package task2;
 import java.io.*;
 import static java.lang.Math.*;
-
-
 public class task2 {
     static private float centerX = -1;
     static private float centerY = -1;
